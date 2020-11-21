@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>becharit-2020-team1</title>
+      <!-- Font Awesome -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+
+  <!--Owl Carousel Files-->
+  <link rel="stylesheet" href="owl-carousel/owl.carousel.min.css">
+  <link rel="stylesheet" href="owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="animation/animate.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- header -->
+<!-- NAvBar -->
+<div  id="home" class="header">
+  <header id="header" class="navbar header--fixed hide-from-print headroom headroom--not-bottom headroom--pinned headroom--top">
+    <header class="navbar-scroll">
+      <header class="nav-top">
+        <div class="continer">
+          <div class="col PL DIB">
+            <p class="call DIB">
+              <i class="fas fa-phone-volume">
+              </i> +91-9876543210
+            </p>
+            <p class="call DIB">
+              <i class="fas fa-envelope">
+              </i> team1@exampe.com
+            </p>
+            <input class="btn1" type="button" name="DONATE" value="DONATE">
+          </div>
+          <div class="col DIB">
+            <input class="text-search" type="search" name="search" placeholder="search">
+            <button class="btn-search"type="button" name="button">search</button>
+          </div>
+          <div class="col col3 DIB">
+            <div class="dropdown-top">
+              <button onclick="myFunction()" class="dropbtn-top"><i class="fas fa-globe"></i>  ENGLISH <i class="fas fa-caret-down"></i></button>
+              <div id="myDropdown" class="dropdown-content2 dc">
+                <a href="#">AR</a>
+                <a href="#">SP</a>
+              </div>
+            </div>
+            <div class="dropdown-top">
+              <button onclick="myFunction2()" class="dropbtn-top"><i class="fas fa-globe"></i>  SPANISH <i class="fas fa-caret-down"></i></button>
+              <div id="myDropdown2" class="dropdown-content3 dc">
+                <a href="#">USD</a>
+                <a href="#">AUD</a>
+              </div>
+            </div>
+            <a class="nav-link"href="#"><i class="fas fa-user-circle"></i>  JOIN</a>
+          </div>
+          <div class="icons col FR PR DIB ">
+            <i class="fab fa-facebook-square"></i>
+            <i class="fab fa-twitter-square"></i>
+            <i class="fab fa-pinterest-square"></i>
+            <i class="fab fa-google-plus-square"></i>
+          </div>
+
+        </div>
+
+      </header>
+
+      <header class="nav-bottom ">
+
+        <div class="continer">
+          <div class="logo FL">
+            <img src="image/logo.png" alt="LOGO">
+          </div>
+
+          <div class=" navg FL">
+            <a class="nav-link nav-c" href="index.html">Home</a>
+            <div class="dropdown">
+              <button class="dropbtn">Page <i class="fas fa-caret-down"></i></button>
+              <div class="dropdown-content" style="left:0;">
+                <a href="#">Page</a>
+                <a href="#">Cause</a>
+                <a href="#">About</a>
+                <a href="#">FAQ</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Event <i class="fas fa-caret-down"></i></button>
+              <div class="dropdown-content" style="left:0;">
+                <a href="#">Event</a>
+                <a href="#">Event details</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Blog <i class="fas fa-caret-down"></i></button>
+              <div class="dropdown-content" style="left:0;">
+                <a href="#">Blog</a>
+                <a href="#">Search Archive</a>
+              </div>
+            </div>
+            <div class="dropdown">
+              <button class="dropbtn">Shop <i class="fas fa-caret-down"></i></button>
+              <div class="dropdown-content" style="left:0;">
+                <a href="#">Shop</a>
+                <a href="#">Product</a>
+                <a href="#">Cart</a>
+                <a href="#">Checkout</a>
+                <a href="#">Login</a>
+                <a href="#">Register</a>
+              </div>
+            </div>
+            <a class="nav-link nav-c" href="#">Content</a>
+
+          </div>
+          <div class="clear"></div>
+        </div>
+      </header>
+    </header>
+  </header>
+</div>
+
+
+<!--DONATION FORM-->
+	<div class="container" style="padding-top: 20px;">
+    <div class="row">
+     <div class="col-xs-12 offset-sm-2 col-sm-8 bg-dark" style="opacity: 0.8;">
+      <p style="color: white;"><i> A donation is a gift for charity, humanitarian aid, or to benefit a cause. <br> A donation may take various forms, including money, alms, services, or goods such as clothing, toys, food, or vehicles. A donation may satisfy medical needs such as blood or organs for transplant.
+      </i><br> RELIEF FUND </p>
+    </div>
+    </div>
+     <br>
+		<div class="col-xs-12 col-sm-12 offset-md-3 col-md-6">
+                <div class="card">
+                    <h3 class="card-header bg-dark text-white ">Donation Form</h3>
+                    <div class="card-body ">
+                      <form action="paynow.php" method="post">
+                        <div class="form-group row">
+                        <label for="name" class="col-md-3 col-form-label"><b>Name:</b></label>
+                        <div class="col-md-9">
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Name" required>
+                        </div>
+                        </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-3 col-form-label"><b>Email ID:</b></label>
+                        <div class="col-md-9">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email ID" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="telnum" class="col-md-3 col-form-label"><b>Contact:</b></label>
+                        <div class=" col-md-9">
+                            <input type="tel" class="form-control" id="telnum" name="telnum" placeholder="Tel. number" required>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="amount" class="col-md-3 col-form-label"><b>Amount:</b></label>
+                        <div class="col-md-9">
+                            <input type="number" class="form-control" id="amount" name="amount" placeholder="Donation Amount" required>
+                        </div>
+                    </div>
+                     <div class="form-group row">
+                        <div class="offset-md-3 col-md-9">
+                            <button type="submit" name="submit" value="donate" class="btn btn-dark"><b>Pay Now</b></button>
+                        </div>
+                    </div>
+                    </form>
+
+                    </div>
+                </div>
+    </div>
+	</div>
+  <!--DONATION FORM-->
+	 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html> 
